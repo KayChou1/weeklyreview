@@ -23,11 +23,11 @@
         // >, <, >=, <=, ===, ==, !==, !=
     // All values have either a truthy or falsy value
         // Check using this: (change the -1 for any other value)   
-            // if(-1 == true){
-            //     console.log(true);
-            // } else {
-            //     console.log(false);
-            // }
+            if(-1 == true){
+                console.log(true);
+            } else {
+                console.log(false);
+            }
 
 // Strings
     // String definition & syntax
