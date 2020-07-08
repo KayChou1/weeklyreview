@@ -8,13 +8,13 @@
         // Boolean
             // True or false. 
                 // To test somethings boolean value:
-                    // let test = -1;
-                    // if(null){
-                    //     console.log(true);
-                    // } else {
-                    //     console.log(false);
-                    // }
-        // Null
+                    let test = -1;
+                    if(null){
+                        console.log(true);
+                    } else {
+                        console.log(false);
+                    }
+        //Null
             // An empty value and signifies the lack of anything. 
         // Undefined 
             // When a variable doesnt have a value. (It HAS been declared. )
@@ -30,9 +30,9 @@
 // String
     // Definition: Set of characters surrounded by quotes
     // Syntax: 
-        // ""
-        // ''
-        // ``
+        ""
+        ''
+        ``
             // Template literal
                 // Can contain ${}, which is called interpolation (its a placeholder)
                 // Inside this placeholder we can have code 
@@ -48,55 +48,55 @@
     // Methods
 // Objects
     // Definition: An unordered set of key-value pairs.
-    // let obj = {
-    //     key: 'value',
-    //     key2: 'value2'
-    // }
+    let obj = {
+        key: 'value',
+        key2: 'value2'
+    }
     // Accessing values in an object
-        // obj.key2
+        obj.key2
     // Changing a value in an object
-        // obj.key = 'value1';
-        // console.log(obj)
+        obj.key = 'value1';
+        console.log(obj)
     // Adding a value to an object
-        // obj.key3 = 'value3';
-        // console.log(obj)
+        obj.key3 = 'value3';
+        console.log(obj)
     // Examples:
         // Getting the value of an object within an object
-        // let nestedObj = {
-        //     insideObj1: {
-        //         insideKey1: 'insideValue1',
-        //         insideKey2: 'insideValue2',
-        //     },
-        //     insideObj2: {
-        //         insideKey: 'insideValue'
-        //     },
-        // }
-        // console.log(nestedObj.insideObj1.insideKey1);
+        let nestedObj = {
+            insideObj1: {
+                insideKey1: 'insideValue1',
+                insideKey2: 'insideValue2',
+            },
+            insideObj2: {
+                insideKey: 'insideValue'
+            },
+        }
+        console.log(nestedObj.insideObj1.insideKey1);
 
         // Getting a specific value from within some JSON (JavaScript Object Notation)
-        // let crazyObj = {
-        //     "glossary": {
-        //         "title": "example glossary",
-        //         "GlossDiv": {
-        //             "title": "S",
-        //             "GlossList": {
-        //                 "GlossEntry": {
-        //                     "ID": "SGML",
-        //                     "SortAs": "SGML",
-        //                     "GlossTerm": "Standard Generalized Markup Language",
-        //                     "Acronym": "SGML",
-        //                     "Abbrev": "ISO 8879:1986",
-        //                     "GlossDef": {
-        //                         "para": "A meta-markup language, used to create markup languages such as DocBook.",
-        //                         "GlossSeeAlso": ["GML", "XML"]
-        //                     },
-        //                     "GlossSee": "markup"
-        //                 }
-        //             }
-        //         }
-        //     }
-        // }
-        // console.log(crazyObj.glossary.GlossDiv.GlossList.GlossEntry.GlossSee)
+        let crazyObj = {
+            "glossary": {
+                "title": "example glossary",
+                "GlossDiv": {
+                    "title": "S",
+                    "GlossList": {
+                        "GlossEntry": {
+                            "ID": "SGML",
+                            "SortAs": "SGML",
+                            "GlossTerm": "Standard Generalized Markup Language",
+                            "Acronym": "SGML",
+                            "Abbrev": "ISO 8879:1986",
+                            "GlossDef": {
+                                "para": "A meta-markup language, used to create markup languages such as DocBook.",
+                                "GlossSeeAlso": ["GML", "XML"]
+                            },
+                            "GlossSee": "markup"
+                        }
+                    }
+                }
+            }
+         }
+         console.log(crazyObj.glossary.GlossDiv.GlossList.GlossEntry.GlossSee)
 // Conditionals
     // 'if' or 'if/else' statements.
     // Definition: Conditionals execute a statement if a specified condition is truthy. If the condition is falsy, another statement can be executed.
